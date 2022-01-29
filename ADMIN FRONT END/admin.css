@@ -1,0 +1,64 @@
+body{
+    margin: 10px;
+    padding: 20px 20px;
+    border:5px solid black;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman';
+    text-align:center;
+}
+img{
+    size: 100px;
+}
+.btn{
+    margin:auto;
+    max-width: 500px;
+}
+div.form
+{
+    display: block;
+    text-align: center;
+    padding:100px;
+    line-height:10px;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding:20px;
+}
+#b1{
+    color:white;
+    background-color: purple;
+    border-radius: 5px;
+}
+#b1:hover{
+    background-color:blue;
+}
+label {
+    cursor: pointer;
+    color: black;
+    display: block;
+    padding: 10px;
+    margin: 3px;
+    border:2px;
+}
+label:hover{
+    border-bottom: purple;
+}
+#qt{
+    background-color: rgb(211, 188, 188);
+    border-radius: 5px;
+}
+#bt{
+    background-color: firebrick;
+    color: white;
+    border-radius: 7px;
+}
+#bt:hover{
+    background-color: purple;
+}
