@@ -1,6 +1,5 @@
 import React from "react";
-import OrderBookingForm, {UserData} from "./getUserData/orderBookingForm";
-import calculate from "../logic/calculate";
+import OrderBookingForm from "./getUserData/orderBookingForm";
 import "./App.css";
 
 export default class App extends React.Component {
@@ -8,10 +7,6 @@ export default class App extends React.Component {
     total: null,
     next: null,
     operation: null,
-  };
-
-  handleClick = buttonName => {
-    this.setState(calculate(this.state, buttonName));
   };
 
   render() {
@@ -22,3 +17,4 @@ export default class App extends React.Component {
     );
   }
 }
+//class based
